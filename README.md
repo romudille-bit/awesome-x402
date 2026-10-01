@@ -637,6 +637,10 @@ Security resources and best practices for x402 implementations.
 - Coinbase x402 Security Audit - Official security audit of x402 protocol smart contracts.
 - [EIP-3009 Security Analysis](https://eips.ethereum.org/EIPS/eip-3009#security-considerations) - Security considerations for TransferWithAuthorization.
 
+### Pre-payment Risk Checks
+
+- [x402check](https://x402check.xyz) - Risk checks on an x402 payee before an agent or wallet pays: OFAC SDN screening, phishing and drainer lists, its own watch of drainer infrastructure on Ethereum and Base, and transaction simulation. Each verdict is an ES256 attestation bound to the request. Prepaid credits or per call via x402; TypeScript SDK with a signing guard and an MCP server ([source](https://github.com/caiovicentino/jev-risk-check-provider)).
+
 ### Security Best Practices
 
 - [x402 Security Checklist](https://docs.cdp.coinbase.com/x402/security/checklist) - Production deployment security requirements.
